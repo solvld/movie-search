@@ -17,10 +17,7 @@ function SearchMovies() {
         displayMovies(data.Search)
         console.log(data.Search)
       } else {
-       // alert('Movies not found')
-        console.log(data)
-        console.log(encodeURI(searchQuery))
-
+        alert('Movies not found');
       }
     })
     .catch(error => console.log('Error', error))
