@@ -55,3 +55,34 @@ html, body {
 #searchButton:hover {
   background: linear-gradient(130deg, rgb(203, 50, 90), rgb(77, 130, 216));
 }
+
+.movieResults {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.movieCard {
+  width: 250px;
+  height: 500px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.movieCard p {
+  margin-bottom: 20px;
+}
+
+#movieImgBlock {
+  overflow: hidden;
+  border-radius: 10px;
+  height: 400px;
+}
